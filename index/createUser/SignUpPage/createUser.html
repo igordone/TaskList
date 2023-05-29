@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" defer href="./createUser.css">
+    <title>CreateUser</title>
+</head>
+<body>
+    <form class="form-container" id="form">
+        <h2>Criar Usuário</h2>
+        <div class="form-controller-container">
+            <div class="form-controller">
+                <label for="usuario"class="label-form"><i class="fa-solid fa-user" style="color: rgb(81, 105, 238); padding-right:0.5em;"></i>Usuário:</label>  
+                <input id="usuario" class="input-form" type="text" placeholder="digite o nome do seu usuário">
+            </div>
+
+            <div class="form-controller"></div>
+                <label for="email" class="label-form"></i><i class="fa-solid fa-envelope" style="color: rgb(81, 105, 238); padding-right:0.5em;"></i>Email:</label>
+                <input id="email" class="input-form" type="text" placeholder="digite o seu e-mail">
+            </div>
+
+            <div class="form-controller">
+                <label for="senha" class="label-form"><i class="fa-solid fa-lock" style="color: rgb(81, 105, 238); padding-right:0.5em;"></i>Senha:</label>
+                <input id="senha" class="input-form" type="password" placeholder="digite a sua senha">
+            </div>
+        </div>
+            <div class="btn-container">
+                <button class="enviar-btn" id="btn">Enviar</button>
+                <p style="margin-top:5%;">Já é cadastrado? Faça o <a href="/index/createUser/loginPage/loginUser.html" style="color:rgb(81, 105, 238);">Login.</a></p>
+            </div>
+    </form>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="createUser.js"></script>
+    <script src="https://kit.fontawesome.com/b91338c26a.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" defer href="./changePass.css">
+    <title>Redefinir Senha</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="button-nav">
+            <ul>
+                <li><a href="/index/createUser/taskPage/task.html"><i class="fa-solid fa-clipboard" style="color: #ffffff; padding-right:0.5em;"></i>Tarefas</a></li>
+                <li><a href="#"><i class="fa-solid fa-user" style="color: rgb(255, 255, 255); padding-right:0.5em;"></i>Minhas Informações</a></li>
+                <li><a href="/index/createUser/loginPage/loginUser.html"><i class="fa-solid fa-right-from-bracket" style="color: #ffffff; padding-right:0.5rem;"></i>Sair</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <form class="form-container" id="form">
+        <h2>Redefinir senha</h2>
+        <div class="form-controller-container">
+            <div class="form-controller">
+                <label for="senha-anterior" class="label-form"></i><i class="fa-solid fa-envelope" style="color: rgb(81, 105, 238); padding-right:0.5em;"></i>Senha Anterior:</label>
+                <input id="senha-anterior" class="input-form" type="text" placeholder="digite a sua senha anterior">
+            </div>
+
+            <div class="form-controller"></div>
+            <label for="nova-senha" class="label-form"><i class="fa-solid fa-lock" style="color: rgb(81, 105, 238); padding-right:0.5em;"></i>Nova senha:</label>
+            <input id="nova-senha" class="input-form" type="password" placeholder="digite a sua nova senha">
+            </div>
+
+            <div class="form-controller">
+                <label for="confirma-senha" class="label-form"><i class="fa-solid fa-lock" style="color: rgb(81, 105, 238); padding-right:0.5em;"></i>Confirmar senha:</label>
+                <input id="confirma-senha" class="input-form" type="password" placeholder="confirme a sua nova senha">
+            </div>
+        </div>
+            <div class="btn-container">
+                <button class="enviar-btn" id="btn-trocar-senha">Enviar</button>
+            </div>
+    </form>
+
+    <script src="changePass.js"></script>
+    <script src="https://kit.fontawesome.com/b91338c26a.js" crossorigin="anonymous"></script>
+</body>
+</html>

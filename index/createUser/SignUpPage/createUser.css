@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./quadro-de-conceito-de-mesa-com-teclado.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgb(240, 240, 240);
+}
+a{
+    text-decoration:none;
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10vh;
+    max-width:500px;
+    min-width:300px;
+    width:40vw;
+    height:auto;
+    padding:5%;
+    background-color:#fff;
+    box-shadow: 0em 0.5em 1em 0em #969494;
+}
+.form-controller-container{
+    display:flex;
+    flex-direction: column;
+    margin-top:15%;
+    width:100%;
+}
+
+.form-controller{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.label-form{
+    color:#000;
+}
+.input-form{
+    display:flex;
+    width:80%;
+    height:2em;
+    margin-bottom:1.5em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(81, 105, 238);
+}
+
+.btn-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:0;
+}
+.enviar-btn{
+    background-color:rgb(81, 105, 238);
+    text-align: center;
+    border:none;
+    width:25vw;
+    max-width:300px;
+    min-width:180px;
+    height:6vh;
+    margin-top:20%;
+    color: #fff;
+    border-radius:2px;
+    cursor: pointer;
+}
+.enviar-btn:hover{
+    background-color:rgb(99, 117, 218);
+}

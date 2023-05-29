@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task.css">
+    <title>Tarefas</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="button-nav">
+            <ul>
+                <li><a href="/index/createUser/myInfoPage/myInfo.html"><i class="fa-solid fa-user" style="color: rgb(255, 255, 255); padding-right:0.5em;"></i>Minhas Informações</a></li>
+                <li><a href="/index/createUser/changePassPage/changePass.html"><i class="fa-solid fa-lock" style="color: rgb(255, 255, 255); padding-right:0.5em;"></i>Redefinir senha</a></li>
+                <li><a href="/index/createUser/loginPage/loginUser.html"><i class="fa-solid fa-right-from-bracket" style="color: #ffffff; padding-right:0.5rem;"></i>Sair</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="insert-task">
+            <div class="insert-task-text">
+                <label for="novaTask"><h4>Criar tarefa: </h4></label>
+                <input type="text" class="novaTask">
+            </div>
+            <div class="insert-task-button">
+                <button class="btn-adicionar" id="btn-add" alt="inserir"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+            </div>
+        </div>
+        <h3>Tarefas:</h3>
+
+        <!-- <div class="task-container">
+            <div clas="task-controller">
+                <h2 class="task-title">titulo da task </h2>
+                <p class="task-text-description"></p>
+            </div>
+
+            <div class="buttons-controller">
+                <button class="buttons" alt="deletar" id="btn-dell"><i class="fa-solid fa-trash" style="color: #fff;"></i></button>
+                <button class="buttons" alt="prioridade" id="btn-prazo"><i class="fa-solid fa-exclamation" style="color: #ffffff;"></i></button>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="task.js"></script>
+    <script src="https://kit.fontawesome.com/b91338c26a.js" crossorigin="anonymous"></script>
+</body>
+</html>
