@@ -1,1 +1,1 @@
-practicing  Front with Simple todoList API
+practicing  Front with a simple todoList API localhost
